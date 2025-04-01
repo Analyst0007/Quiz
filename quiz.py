@@ -6,7 +6,8 @@ Created on Tue Apr  1 09:36:33 2025
 """
 import streamlit as st
 import requests
-import random
+import numpy 
+from numpy import random
 
 # Function to fetch questions from the Open Trivia Database API
 def fetch_questions(amount=10, category=9, difficulty="medium", type="multiple"):
